@@ -613,8 +613,6 @@ textarea {
   bottom: 5px;
 }
 
-/* @MEDIA = for responsive website */
-
 .contact #search-btn:hover {
   background-color: #4caf50;
   color: #ffffff;
@@ -630,4 +628,47 @@ textarea {
 
 .logo h2:hover {
   color: #4caf50;
+}
+
+/* @MEDIA = for responsive website */
+/* if the screen size is 0-768px,it will apply all these css */
+
+@media screen and (max-width: 760px) {
+
+  .nav ul {
+    display: none;
+  }
+
+  .nav h1 a {
+    color: #c7a17a;
+  }
+
+  .wrapper {
+    min-width: 0;
+  }
+
+  .ads .ads-box {
+    float: none;
+    width: 100%;
+  }
+
+  .ads-item1 {
+    margin-bottom: -50px;
+  }
+
+  .ads-item3,
+  .ads-item4,
+  .ads-item5 {
+    margin-bottom: -50px;
+  }
+
+  .merch-item {
+    float: left;
+    width: 49.5%;
+  }
+
+  .item2,
+  .item6 {
+    margin-right: 0;
+  }
 }
