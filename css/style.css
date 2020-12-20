@@ -607,6 +607,14 @@ textarea {
   text-transform: capitalize;
 }
 
+.copylight a {
+  position: fixed;
+  right: 10px;
+  bottom: 5px;
+}
+
+/* @MEDIA = for responsive website */
+
 .contact #search-btn:hover {
   background-color: #4caf50;
   color: #ffffff;
