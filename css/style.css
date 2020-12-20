@@ -606,3 +606,20 @@ textarea {
   font-weight: 700;
   text-transform: capitalize;
 }
+
+.contact #search-btn:hover {
+  background-color: #4caf50;
+  color: #ffffff;
+}
+
+.latest-post h4:hover {
+  text-decoration: underline;
+}
+
+.social a:hover {
+  text-decoration: underline;
+}
+
+.logo h2:hover {
+  color: #4caf50;
+}
