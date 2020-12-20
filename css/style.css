@@ -376,6 +376,14 @@ a {
   background-color: #312a26;
 }
 
+.res-form select:focus {
+  background-color: #312a26;
+}
+
+.res-form textarea:focus {
+  background-color: #312a26;
+}
+
 .left,
 .right {
   background-color: #f2f2f2;
